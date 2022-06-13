@@ -4,6 +4,8 @@ This project is a Japanese translation effort of [Dependency-Track Frontend](htt
 Basically, "en.json", which is provided by Dependency-Track Frontend, is translated into Japanese as a file "ja.json",
 and some files are modified in order to switch locales.
 
+**This project has nothing to do with the original [Dependency-Track](https://dependencytrack.org/).
+
 # How To Use
 
 1. Download a source code of [Dependency-Track Frontend](https://github.com/DependencyTrack/frontend) (*1) which is compatible with Dependency-Track API server you are using.
