@@ -6,4 +6,14 @@ and some files are modified in order to switch locales.
 
 # How To Use
 
-
+1. Download a source code of [Dependency-Track Frontend](https://github.com/DependencyTrack/frontend) (*1) which is compatible with Dependency-Track API server you are using.
+2. Download a source code on this repository (*2) the version of which matches that of Dependency-Track Frontend.
+3. Unzip (*1), then unzip (*2) with overwriting (*1).
+4. Open a terminal and type the following commands.
+```
+$ cd /path/to/Dependency-Track Frontend/
+$ npm run build
+```
+5. If the command ```npm run build``` is successful, then edit properly or delete a file ```dist/static/config.json```.
+6. Copy the files and directories under ```dist/``` to the document root of Dependency-Track Frontend server.
+7. Set your browser's preffered language to the locale you want to use, and access Dependency-Track Frontend server.
