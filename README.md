@@ -19,3 +19,5 @@ $ npm run build
 5. If the command ```npm run build``` is successful, then edit properly a file ```dist/static/config.json``` (, or delete it).
 6. Copy the files and directories under ```dist/``` to the document root of Dependency-Track Frontend server.
 7. Set your browser's preffered language to the locale you want to use, and access Dependency-Track Frontend server.
+
+![Dependency-Track_Dashboard_ja](https://user-images.githubusercontent.com/100552204/174016314-3b4dfc38-83c4-4b82-8f93-1b5d6dd8697e.png)
