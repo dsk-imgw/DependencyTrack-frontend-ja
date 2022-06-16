@@ -16,6 +16,6 @@ and some files are modified in order to switch locales.
 $ cd /path/to/Dependency-Track Frontend/
 $ npm run build
 ```
-5. If the command ```npm run build``` is successful, then edit properly or delete a file ```dist/static/config.json```.
+5. If the command ```npm run build``` is successful, then edit properly a file ```dist/static/config.json``` (, or delete it).
 6. Copy the files and directories under ```dist/``` to the document root of Dependency-Track Frontend server.
 7. Set your browser's preffered language to the locale you want to use, and access Dependency-Track Frontend server.
