@@ -150,7 +150,7 @@
     "cvss_unchanged": "変更なし",
     "cvss_changed": "変更あり",
     "cvss_authentication": "攻撃前の認証要否",
-    "cvss_confidentiality_impact": "気密性への影響",
+    "cvss_confidentiality_impact": "機密性への影響",
     "cvss_integrity_impact": "完全性への影響",
     "cvss_availability_impact": "可用性への影響",
     "cvss_physical": "物理",
