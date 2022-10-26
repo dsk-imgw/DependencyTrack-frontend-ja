@@ -14,6 +14,8 @@ and some files are modified in order to switch locales.
 4. Open a terminal and type the following commands.
 ```
 $ cd /path/to/Dependency-Track Frontend/
+$ npm install
+$ npm audit fix
 $ npm run build
 ```
 5. If the command ```npm run build``` is successful, then edit properly a file ```dist/static/config.json``` (, or delete it).
