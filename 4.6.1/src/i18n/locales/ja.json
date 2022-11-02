@@ -585,7 +585,7 @@
     "server_error": "サーバーエラー"
   },
   "violation": {
-    "info": "通知",
+    "info": "情報",
     "warn": "警告",
     "fail": "失敗"
   },
