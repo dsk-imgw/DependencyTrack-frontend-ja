@@ -587,7 +587,7 @@
   "violation": {
     "info": "情報",
     "warn": "警告",
-    "fail": "失敗"
+    "fail": "不可"
   },
   "operator" : {
     "is": "が、次に等しい",
@@ -612,7 +612,7 @@
     "blake3": "BLAKE3"
   },
   "policy_violation": {
-    "fails": "失敗レベルの違反",
+    "fails": "不可レベルの違反",
     "warns": "警告レベルの違反",
     "infos": "情報レベルの違反",
     "license": "ライセンス上の違反",
