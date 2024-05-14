@@ -17,8 +17,8 @@ and some files are modified in order to switch locales.
 
 # How To Use　《利用方法》
 
-1. Download a source code of [Dependency-Track Frontend](https://github.com/DependencyTrack/frontend) (*1) which is compatible with Dependency-Track API server you are using.　《利用中の Dependency-Track API サーバーに対応した [Dependency-Track Frontend](https://github.com/DependencyTrack/frontend) (*1)のソースコードをダウンロードします。》
-2. Download a source code on this repository (*2) the version of which matches that of Dependency-Track Frontend.　《Dependency-Track Frontend のバージョンと一致するバージョンのソース コードをこのリポジトリ (*2) からダウンロードします。》
+1. Download a source code of [Dependency-Track Frontend](https://github.com/DependencyTrack/frontend) (*1) which is compatible with Dependency-Track API server you are using.　《利用中の Dependency-Track API サーバーに対応した [Dependency-Track Frontend](https://github.com/DependencyTrack/frontend) のソースコード (*1) をダウンロードします。》
+2. Download a source code on this repository (*2) the version of which matches that of Dependency-Track Frontend.　《Dependency-Track Frontend のバージョンと一致するバージョンのソース コード (*2) をこのリポジトリからダウンロードします。》
 3. Unzip (*1), then unzip (*2) with overwriting (*1).　《(*1) を解凍したあとに (*2) を上書き展開します。》
 4. Open a terminal and type the following commands.　《ターミナルを開き、以下のコマンドを実行します。》
 ```
