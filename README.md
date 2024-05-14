@@ -24,11 +24,10 @@ and some files are modified in order to switch locales.
 ```
 $ cd /path/to/Dependency-Track Frontend/
 $ npm install
-$ npm audit fix
 $ npm run build
 ```
 5. If the command ```npm run build``` is successful, then edit properly a file ```dist/static/config.json``` (, or delete it).　《コマンド ```npm run build``` の実行が成功したら、```dist/static/config.json``` を適切に編集します（削除でも可）。》
 6. Copy the files and directories under ```dist/``` to the document root of Dependency-Track Frontend server (, or build your custom Docker image).　《```dist/``` 配下のファイル・ディレクトリ群を Dependency-Track Frontend サーバーのドキュメント ルートにコピーします（独自に Docker イメージを作成するのも可）。》
-7. Set your browser's preffered language to the locale you want to use, and access Dependency-Track Frontend server.　《Web ブラウザの使用言語の順番設定を構成して、Dependency-Track Frontend サーバーにアクセスします。》
+7. Before v4.11.0, set your browser's preffered language to Japanese, and access Dependency-Track Frontend server.　For versions 4.11.0 or later, sign in and change your language to Japanese on the right-top menu.《v4.11.0 未満の場合、Web ブラウザの使用言語の順番で日本語が最優先されるように設定を構成して、Dependency-Track Frontend サーバーにアクセスします。v4.11.0 以降の場案は、ログイン後の右上メニューから日本語を選択します。》
 
 ![Dependency-Track_Dashboard_ja](https://user-images.githubusercontent.com/100552204/174016314-3b4dfc38-83c4-4b82-8f93-1b5d6dd8697e.png)
