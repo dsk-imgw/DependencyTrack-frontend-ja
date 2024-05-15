@@ -855,7 +855,7 @@
     "license": "ライセンス上の違反",
     "operational": "運用上の違反",
     "security": "セキュリティ上の違反",
-    "total": 違反の合計",
+    "total": "違反の合計",
     "warns": "警告レベルの違反"
   },
   "severity": {
