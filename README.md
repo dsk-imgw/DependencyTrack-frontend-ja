@@ -22,7 +22,7 @@ and some files are modified in order to switch locales.
 3. Unzip (*1), then unzip (*2) with overwriting (*1).　《(*1) を解凍したあとに (*2) を上書き展開します。》
 4. Open a terminal and type the following commands.　《ターミナルを開き、以下のコマンドを実行します。》
 ```
-$ cd /path/to/Dependency-Track Frontend/
+$ cd /path/to/Dependency-Track-Frontend/
 $ npm install
 $ npm run build
 ```
