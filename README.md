@@ -8,16 +8,12 @@ and some files are modified in order to switch locales.
 
 *NOTE: As of v4.11.0, Japanese translation is included in the official release, but some of the translated messages are not correct or unfamiliar to the native Japanese people. So, this project is trying to mitigate the translation errors by publishing the custom translation files sseparately.*
 
-*NOTE: For v4.11.1, since the original message file 'en.json' is unchanged compared to v4.11.0, the new Japanese-tralslated file will not be released in this repository. Use v4.11.0.*
-
 《このプロジェクトは、[Dependency-Track Frontend](https://github.com/DependencyTrack/frontend) の日本語化に関するものです。
 オリジナルの en.json を日本語に翻訳しており、表示言語を切り替えるための変更を一部のファイルに実施しています。》
 
 *《注: なお、このプロジェクトは、本家の [Dependency-Track](https://dependencytrack.org/) と関係はありません（個人が趣味的にやっているものです）。》*
 
 *《注：v4.11.0 以降、日本語を含む多言語翻訳が公式リリ－スに含まれていますが、一部日本語訳が不自然なため、独自の日本語訳メッセージ ファイルをここで公開しています。》*
-
-*《注: v4.11.1 がリリースされましたが、大元の英語メッセージ ファイル en.json が前バージョン v4.11.0 と同じであったため、このリポジトリでは v4.11.1 用にリリースはしない予定です。v4.11.0 用を使ってください。》*
 
 # How To Use　《利用方法》
 
