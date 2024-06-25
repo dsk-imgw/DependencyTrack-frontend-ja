@@ -18,8 +18,11 @@ $ cd /path/to/Dependency-Track-Frontend/
 $ npm install
 $ npm run build
 ```
-5. コマンド ```npm run build``` の実行が成功したら、```dist/static/config.json``` を適切に編集します（削除でも可）。
-6. ```dist/``` 配下のファイル・ディレクトリ群を Dependency-Track Frontend サーバーのドキュメント ルートにコピーします（独自に Docker イメージを作成するのも可）。
+5. ```dist/``` 配下のファイル・ディレクトリ群を Dependency-Track Frontend サーバーのドキュメント ルートにコピーします。
+6. あるいは、以下のコマンドで独自に Docker イメージを作成して、作成したイメージをロードするように docker-compose.yml を編集しデプロイする方法でも可。
+```
+$ docker build -f docker/Dockerfile.alpine -t dependencytrack/frontend:local .
+```
 7. v4.11.0 未満の場合、Web ブラウザの使用言語の順番で日本語が最優先されるように設定を構成して、Dependency-Track Frontend サーバーにアクセスします。v4.11.0 以降の場合は、ログイン後の右上メニューから日本語を選択します。
 
 ![Dependency-Track_Dashboard_ja](https://user-images.githubusercontent.com/100552204/174016314-3b4dfc38-83c4-4b82-8f93-1b5d6dd8697e.png)
